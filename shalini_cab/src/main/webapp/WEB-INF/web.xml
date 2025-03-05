@@ -1,5 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<welcome-file-list>
-    <welcome-file>shalini_cab/index.jsp</welcome-file>
-</welcome-file-list>
+<element>
+<web-app xmlns="https://jakarta.ee/xml/ns/jakartaee" version="5.0">
+    <servlet>
+        <servlet-name>CustomerServlet</servlet-name>
+        <servlet-class>Servlet.CustomerServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>CustomerServlet</servlet-name>
+        <url-pattern>/CustomerServlet</url-pattern>
+    </servlet-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+    
+    <servlet>
+        <servlet-name>BookingServlet</servlet-name>
+        <servlet-class>Servlet.BookingServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>BookingServlet</servlet-name>
+        <url-pattern>/BookingServlet</url-pattern>
+    </servlet-mapping>
+    
+    
+</web-app>
+</element>
