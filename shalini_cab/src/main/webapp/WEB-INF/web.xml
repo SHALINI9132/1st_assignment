@@ -40,5 +40,34 @@
         <url-pattern>/BillServlet</url-pattern>
     </servlet-mapping>
     
+    <servlet>
+    <servlet-name>DeleteBookingServlet</servlet-name>
+    <servlet-class>Servlet.DeleteBookingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>DeleteBookingServlet</servlet-name>
+    <url-pattern>/DeleteBookingServlet</url-pattern>
+</servlet-mapping>
+
+<servlet>
+    <servlet-name>EditBookingServlet</servlet-name>
+    <servlet-class>Servlet.EditBookingServlet</servlet-class>
+</servlet>
+<servlet-mapping>
+    <servlet-name>EditBookingServlet</servlet-name>
+    <url-pattern>/EditBookingServlet</url-pattern>
+</servlet-mapping>
+    
+    <servlet>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <servlet-class>Servlet.AdminLoginServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>AdminLoginServlet</servlet-name>
+        <url-pattern>/AdminLoginServlet</url-pattern>
+    </servlet-mapping>
+    
+    
 </web-app>
 </element>
