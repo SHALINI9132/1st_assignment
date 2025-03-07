@@ -3,8 +3,19 @@
 <head>
     <title>Customer Registration</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f4f4; text-align: center; }
-        .container { width: 40%; background: white; padding: 20px; margin: auto; margin-top: 50px; box-shadow: 0px 0px 10px gray; border-radius: 10px; }
+        body { font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: flex-start; /* Aligns content to the left */
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    padding-left: 50px; }
+        .container { width: 300px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin: 0;}
         input { width: 90%; padding: 8px; margin: 10px 0; border: 1px solid #ccc; border-radius: 5px; }
         button { background-color: blue; color: white; padding: 10px 15px; border: none; border-radius: 5px; cursor: pointer; }
         button:hover { background-color: darkblue; }
