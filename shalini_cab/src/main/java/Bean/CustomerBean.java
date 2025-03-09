@@ -1,14 +1,8 @@
 package Bean;
 
 public class CustomerBean {
-    private String username;
-    private String password;
-    private String mailId;
-    private String phoneNumber;
-    private String address;
-    private String nicNumber;
+    private String username, password, mailId, phoneNumber, address, nicNumber;
 
-    // Getters and Setters
     public String getUsername() { return username; }
     public void setUsername(String username) { this.username = username; }
 
